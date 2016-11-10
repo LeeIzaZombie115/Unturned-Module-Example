@@ -6,9 +6,13 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
+/*
+ * Everything done in this file can be used exactly like you do in Unity scripting. 
+ */
+
 namespace ExampleModule
 {
-    public class ExampleGUIClass : PlayerCaller
+    public class ExampleGUIClass : PlayerCaller //Required Interface PlayerCaller.
     {
         public static ExampleGUIClass gui = null;
         public int Counter = 0;
